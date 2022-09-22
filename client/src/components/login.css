@@ -1,0 +1,75 @@
+
+.login__container{
+    background-color: #F0F2F5;
+}
+.login__form{
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+
+}
+.login_smallContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 11px 22px ;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 41px 0 94px;
+    width: 340px;
+}
+.login_smallContainer> h1{
+    font-family: 'Baloo 2', cursive;
+    /* margin-bottom: 62px; */
+
+}
+.login_smallContainer> input{
+
+    background: #FFFFFF urepeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 47px;
+    line-height: 16px;
+    padding: 2px 48px;
+    vertical-align: middle;
+    margin: 8px;
+    border-radius: 6px;
+    
+}
+.login_smallContainer > button{
+    color: white;
+    margin-top: 8px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 234px;
+    cursor: pointer;
+}
+.login__button{
+    color: white;
+    margin-top: 9px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 40px;
+    width: 250px;
+    cursor:pointer;
+}
